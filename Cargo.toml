@@ -1,0 +1,20 @@
+[package]
+name = "pfiles"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.33"
+egui_extras = "0.33"
+serde = { version = "1", features = ["derive"] }
+base64 = "0.22"
+mime_guess = "2"
+dirs = "5"
+zip = { version = "2", default-features = false, features = ["deflate", "bzip2", "zstd", "time"] }
+sevenz-rust2 = "0.13"
+tar = "0.4"
+flate2 = "1"
+trash = "5"
+chrono = { version = "0.4", features = ["clock"] }
+image = { version = "0.25", default-features = true }
+unicode-normalization = "0.1"
